@@ -1,0 +1,45 @@
+.mapWrapper {
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 40px auto;
+}
+
+.chestWrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+}
+
+.chest {
+    width: 100%;
+}
+
+.map {
+    width: 100%;
+}
+
+.hint {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'segoe ui', sans-serif;
+}
+
+.hintHot {
+    color: lightcoral;
+}
+
+.hintCold {
+    color: #3030e9;
+}
+
+.hintWarm {
+    color: #c1b74a;
+}
+
+.hintCool {
+    color: #4d9cf0;
+}
